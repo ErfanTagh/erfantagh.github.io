@@ -7,20 +7,17 @@
 </head>
 <body>
 
-<h1 class='gooz'>Hi my name is Erfan Taghvaei and I'm a developer from Iran!</h1>
-<h2 class='gooz1'>My interests are Python, computer vision and expert systems</h2>
-<p id='mytxt'>While I'm not writing the next big project that will change the world, I enjoy cycling.</p>
-<img  id="myImage" class="myimage1" src="/images/erfan3.jpg" width="500" height="600">
-
-
+<h1 class='gooz'>Hello there! My name is Erfan and I'm a developer from Iran! </h1>
+<h2 class='gooz1'I mostly >My Second Gooz</h2>
+<p id='mytxt'>My first paragraph.</p>
+<img  id="myImage" class="myimage1" src="https://www.thewikifeed.com/wp-content/uploads/2021/04/zayn-malik-1.jpg" width="500" height="600">
+<p id="demo">Nardan Bire Kim Ayyy!!!</p>
 <input type="text" id="fname" name="fname" disabled><br>
 <button type="button" id='id1' width="300" height="200" onclick="myFunction()">Hide Me!</button>
 <button type="button" width="300" height="200" onclick="myFunction1()">Change Me!</button>
 <button type="button" width="300" height="200" onclick="myFunction3()"><em>Change Zayn to Khabib!</em></button>
 <button type="button" width="300" height="200" onclick="myFunction2()">Add Me!</button>
 <button type="button" width="300" height="200" onclick="myFunction4()">Display Name!</button>
-<p id="demo">Nothing special, just adding some motivation at the end!</p>
-<img  id="myImage" class="myimage1" src="/images/erfan4.jpg" width="300" height="400">
 
 <script src="scripts/main.js"></script>
 </body>
