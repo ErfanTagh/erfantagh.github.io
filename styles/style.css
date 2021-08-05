@@ -6,7 +6,13 @@ html {
 	font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
 }
 
+.links{
 
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+}
 body {
   width: 600px;
   margin: 0 auto;
@@ -18,7 +24,6 @@ h1 {
   margin: 0;
   padding: 20px 0;
   color: #00539F;
-  text-shadow: 3px 3px 1px black;
 }
 
 img {
