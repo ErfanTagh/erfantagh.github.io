@@ -1,39 +1,128 @@
-html {
-	
-	background-color: #00539F;
 
-	font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
-	font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+body{
+
+  font-family: 'Poppins', sans-serif; 
 }
 
-.links{
 
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+section {
+
+  height: 500px;
+  background-color: yellowgreen;
+  border: solid black 1px;
+
 
 }
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #FF9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+
+
+.hero{
+
+
+  background-color: #1c1d25;
+  height: 100vh;
+
+color: white;
+font-size: 40px;
+
 }
-h1 {
+footer{
+
+
+  height: 500px;
+  background-color: black ;
+}
+
+nav{
+
+display: flex;
+
+justify-content: space-between;
+
+}
+ul{
+
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+
+li{
+
+
+text-decoration: none;
+}
+
+h1{
+
+
+  font-size: 90px;
   margin: 0;
-  padding: 20px 0;
-  color: #00539F;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
+p{
+
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.hero-text{
+
+margin-left: 80px;
+margin-bottom: 200px;
 }
 
 
-p, button {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+.button{
+
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: coral  ;
+  text-align: center;
+
+font-weight: 300;
+font-size: 30px;
+padding-top: 5px;
+margin-top: 20px;
+}
+
+.button:hover{
+
+background-color: #ef744b;
+
+}
+
+.button:active{
+
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+
+.hero-area{
+
+  display: flex;
+ 
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials{
+
+padding-bottom: 200px;
+margin-right: 20px;
+cursor: pointer;
+
+}
+
+.logo{
+
+
+  height: 200px;
+  margin: 30px;
 }
