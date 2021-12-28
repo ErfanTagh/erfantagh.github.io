@@ -7,7 +7,6 @@ body{
 
 section {
 
-  height: 500px;
   background-color: yellowgreen;
   border: solid black 1px;
 
@@ -60,6 +59,11 @@ h1{
 
   font-size: 90px;
   margin: 0;
+}
+
+h2{
+
+  font-size: 50px;
 }
 
 p{
@@ -124,6 +128,7 @@ cursor: pointer;
 
   height: 200px;
   margin: 30px;
+  border-radius: 150px;
 }
 
 
@@ -132,3 +137,19 @@ cursor: pointer;
 
   margin: 20px;
 }
+
+.section-shot{
+
+
+  display: flex;
+  justify-content: space-around; 
+  padding: 80px;
+}
+
+.headshot{
+
+
+  display: flex;
+  align-items: center;
+}
+
