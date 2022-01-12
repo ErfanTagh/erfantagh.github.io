@@ -7,9 +7,7 @@ body{
 
 section {
 
-  background-color: yellowgreen;
-  border: solid black 1px;
-
+  background-color: white;
 
 }
 
@@ -19,16 +17,22 @@ section {
 
   background-color: #1c1d25;
   height: 100vh;
-
-color: white;
-font-size: 40px;
+  color: white;
+  font-size: 40px;
 
 }
 footer{
 
-
   height: 500px;
   background-color: black ;
+
+}
+
+a{
+
+
+  text-decoration: none;
+  color: aliceblue;
 }
 
 nav{
@@ -42,7 +46,7 @@ ul{
 
   display: flex;
   list-style-type: none;
-  width: 500px;
+  width: 800px;
   justify-content: space-between;
   font-size: 30px;
 }
@@ -77,6 +81,14 @@ p{
 
 margin-left: 80px;
 margin-bottom: 200px;
+}
+
+.subtext{
+
+font-size: 15px;
+font-weight: 300;
+
+
 }
 
 
@@ -132,6 +144,15 @@ cursor: pointer;
 }
 
 
+.project-image{
+
+
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+
 .sclass{
 
 
@@ -153,3 +174,56 @@ cursor: pointer;
   align-items: center;
 }
 
+
+.project-card{
+    
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px rgb(165, 164, 164);
+  margin: 10px;
+  
+}
+
+.project-container{
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-shot-alt{
+
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+hr{
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.project-link{
+
+
+  text-decoration:none;
+
+  color: #ef744b;
+
+
+}
+
+
+footer{
+
+
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 500px;
+
+  padding: 80px;
+}
