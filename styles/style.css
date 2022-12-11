@@ -99,11 +99,11 @@ font-weight: 300;
   border-radius: 30px;
   background-color: coral  ;
   text-align: center;
-
-font-weight: 300;
-font-size: 30px;
-padding-top: 5px;
-margin-top: 20px;
+  margin-right: 16px;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-top: 20px;
 }
 
 .button:hover{
@@ -117,6 +117,46 @@ background-color: #ef744b;
   background-color: #a9a9a9;
   color: #808080;
 }
+
+
+.buttons{
+
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+
+}
+
+
+.button1{
+
+  
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #ff1493;
+  
+  text-align: center;
+  margin-right: 8px;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+
+.button1:hover{
+
+  background-color: #ff007f;
+  
+  }
+  
+ .button1:active{
+  
+    background-color: #a9a9a9;
+    color: #808080;
+  }
+
 
 
 .hero-area{
