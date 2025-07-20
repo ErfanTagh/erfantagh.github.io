@@ -175,6 +175,15 @@ cursor: pointer;
 
 }
 
+.logo{
+
+
+  height: 200px;
+  margin: 30px;
+   border-radius: 50%;
+  object-fit: cover
+}
+
 
 .project-image{
 
@@ -200,19 +209,11 @@ cursor: pointer;
   padding: 80px;
 }
 
-.headshot {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* optional */
-}
+.headshot{
 
-.logo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 30px;
+
+  display: flex;
+  align-items: center;
 }
 
 
